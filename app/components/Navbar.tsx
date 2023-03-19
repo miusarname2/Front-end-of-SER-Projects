@@ -1,4 +1,4 @@
-import './index.css'
+import "./index.css";
 
 export function NavbarIndex() {
   return (
@@ -11,43 +11,68 @@ export function NavbarIndex() {
           >
             <img
               src="https://scontent.fbga1-4.fna.fbcdn.net/v/t39.30808-6/334018515_3413401262311897_8863148242789559263_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH-uHtZdDhduyCugU7e5x9a5dXSoUgEvE_l1dKhSAS8T7JW4t97NpT9k11RhQAFEGr3EUqgKfO507aPHVQwSYdk&_nc_ohc=iNoZQt0D818AX-USZ1Y&_nc_ht=scontent.fbga1-4.fna&oh=00_AfAHIoaUdE3Jgc5y3-p6PtjzLXjFfLOspiczjgWSZFp6Jw&oe=641AF8B6"
-              alt="" id="Logo"
+              alt=""
+              id="Logo"
             />
           </a>
 
-          <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          {/* <ul classNameName="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <a href="#" className="nav-link px-2 link-secondary">
+              <a href="#" classNameName="nav-link px-2 link-secondary">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link px-2 link-dark">
+              <a href="#" classNameName="nav-link px-2 link-dark">
                 Features
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link px-2 link-dark">
+              <a href="#" classNameName="nav-link px-2 link-dark">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link px-2 link-dark">
+              <a href="#" classNameName="nav-link px-2 link-dark">
                 FAQs
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link px-2 link-dark">
+              <a href="#" classNameName="nav-link px-2 link-dark">
                 About
               </a>
             </li>
-          </ul>
+          </ul> */}
+          <div className="dropdown">
+            <a
+              className="btn btn-primary dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Select language
+            </a>
 
-          {/* <div className="col-md-3 text-end">
-            <button type="button" className="btn btn-outline-primary me-2">
+            <ul className="dropdown-menu">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Español/Spanish
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="/">
+                  English/Ingles
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* <div classNameName="col-md-3 text-end">
+            <button type="button" classNameName="btn btn-outline-primary me-2">
               Login
             </button>
-            <button type="button" className="btn btn-primary">
+            <button type="button" classNameName="btn btn-primary">
               Sign-up
             </button>
           </div> */}

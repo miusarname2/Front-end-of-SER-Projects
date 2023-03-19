@@ -10,7 +10,9 @@ export default function HomePage() {
       <div className="col-lg-8 mx-auto p-4 py-md-5">
         <Publicaciones />
       </div>
-      <Footer/> 
+      <footer>
+        <Footer/> 
+      </footer>
     </div>
   );
 }
