@@ -16,7 +16,7 @@ export function Hero(props:any) {
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-3">
-              Welcome to your "camper" profile, what do you want to do?...
+              Welcome to your "Trainer" profile, what do you want to do?...
             </h1>
           </div>
         </div>
