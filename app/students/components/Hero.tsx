@@ -5,12 +5,13 @@ export function Hero() {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://lh6.googleusercontent.com/KKWOR5dCjl0l8s7rUOLdeYuprl1TMD1MJCEE4HuCwVxAQl9S2zHVVNButUyPWRX9-yIe3qv7GsCYmVRLPZxWea4"
+              src="https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
               width="700"
               height="500"
               loading="lazy"
+              style={{ borderRadius: "10px", boxShadow: "0 0 10px #ccc" }}
             />
           </div>
           <div className="col-lg-6">

@@ -51,7 +51,7 @@ export function NavbarIndex() {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Select language
+              Seleccionar Lenguaje
             </a>
 
             <ul className="dropdown-menu">

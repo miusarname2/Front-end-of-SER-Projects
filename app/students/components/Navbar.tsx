@@ -70,17 +70,12 @@ export function Navbar() {
             </a>
             <ul className="dropdown-menu text-small">
               <li>
-                <a className="dropdown-item" href="#">
-                  New project...
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/settings">
                   Settings
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/profile/me">
                   Profile
                 </a>
               </li>
