@@ -12,12 +12,12 @@ export function Teams() {
           marginRight: "20px",
         }}
       >
-        <a href="/trainer/s1" className="btn btn-primary" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S1</a>
-        <a href="/trainer/s2" className="btn btn-secondary" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S2 </a>
-        <a href="/trainer/s3" className="btn btn-success" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S3 </a>
-        <a href="/trainer/s4" className="btn btn-danger " role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S4 </a>
-        <a href="/trainer/w1" className="btn btn-warning" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> W1 </a>
-        <a href="/trainer/w2" className="btn btn-info" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> W2 </a>
+        <a href="/trainers/s1" className="btn btn-primary" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S1</a>
+        <a href="/trainers/s2" className="btn btn-secondary" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S2 </a>
+        <a href="/trainers/s3" className="btn btn-success" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S3 </a>
+        <a href="/trainers/s4" className="btn btn-danger " role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> S4 </a>
+        <a href="/trainers/w1" className="btn btn-warning" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> W1 </a>
+        <a href="/trainers/w2" className="btn btn-info" role="button" style={{ margin: "9px", borderRadius: "6px",maxHeight: "38px" }}> W2 </a>
       </div>
 
       {/* DIV 2 */}
