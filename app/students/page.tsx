@@ -14,7 +14,7 @@ export default function helloPago() {
     <div>
       <Navbar />
       <Hero image="https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-      <h1 style={{textAlign: "center", fontSize: "50px", fontWeight: "bold", fontFamily: "sans-serif", marginTop: "30px", marginBottom: "30px"}} className="text-success-emphasis"> Acontecimiento Impotantes...</h1>
+      <h2 style={{textAlign: "center", fontSize: "50px", fontWeight: "bold", fontFamily: "sans-serif", marginTop: "30px", marginBottom: "30px"}} className="text-success-emphasis"> Notice Boards &amp; Events</h2>
       <div> 
       <Notice/>
       </div>
